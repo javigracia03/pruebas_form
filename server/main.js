@@ -1,3 +1,5 @@
+var db = require('../db/database.js')
+
 const http = require('http');
 var fs = require('fs')
 
@@ -14,4 +16,6 @@ fs.readFile('../index.html', function (err, html) {
     }).listen(PORT);
 });
 
+
+db();
 
