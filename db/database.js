@@ -1,7 +1,7 @@
 module.exports = function connectDB(){
     const { Client } = require('pg');
     const client = new Client({
-        user: 'your-username',
+        user: 'javiergracia2003',
         host: 'dpg-cfoumtqrrk0fd9qhej20-a',
         database: 'form_data',
         password: 'te8xfzuhOg3wmPvznjubHllEdrOfYIFx',
